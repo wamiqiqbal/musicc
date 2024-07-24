@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Player </title>
+    <style>
+        
+        .audio-controls {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .audio-controls button {
+            margin: 0 10px;
+            padding: 10px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Music Player</h1>
+    <h2>IPhone Ringtone</h2>
+    
+    <audio id="audioPlayer" src="c:\Users\ASA\Downloads\I phone ringtone_best ringtone .mp3" controls></audio>
+    
+    <div class="audio-controls">
+        <button onclick="playAudio()">Play</button>
+        <button onclick="pauseAudio()">Pause</button>
+        <button onclick="stopAudio()">Stop</button>
+    </div>
+    <script src="music.js"></script>
+</body>
+</html>
